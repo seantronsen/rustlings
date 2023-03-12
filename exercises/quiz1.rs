@@ -10,10 +10,16 @@
 // Write a function that calculates the price of an order of apples given
 // the quantity bought. No hints this time!
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(n_apples: u16) -> u16 {
+    let rate = match n_apples > 40 {
+        true => 1,
+        false => 2,
+    };
+
+    rate * n_apples
+}
 
 // Don't modify this function!
 #[test]
