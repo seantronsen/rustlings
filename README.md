@@ -1,3 +1,7 @@
+# NOTE
+The state of the repository reflects my personal progress through the course. I have no intention of submitting updates/improvements upstream. 
+
+
 # rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
